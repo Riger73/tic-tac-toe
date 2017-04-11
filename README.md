@@ -1,11 +1,10 @@
 /*tic-tac-toeTictactoe implementation made the following assuption:
 
-1) All elements already provided were intended to be used. 
-2) cur_token was intended for use in holding token to test for win scenario.
-3) The provided static "read_end_of_line()" function could be moved for usage within the file needing it.
+1) cur_token was intended for use in holding token to test for win scenario.
+2) The provided static "read_end_of_line()" function could be moved for usage within the file needing it.
 I moved it to test EOL in player.c
-4) Where magic numbers were used I believed they were the must robust solution given available options and commented clearly their purpose. 
-5) To keep startup code recognisable from markable code I have labelled my own comments with my initials 'TN'.
+3) Where magic numbers were used I believed they were the must robust solution given available options and commented clearly their purpose. 
+4) To keep startup code recognisable from markable code I have labelled my own comments with my initials 'TN'.
 
 
 The following functions were crewated to facility modular functionality:
